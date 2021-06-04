@@ -19,6 +19,6 @@ public class HttpURLPostTest {
 	OutputStream stream = con.getOutputStream();
 	OutputStreamWriter owriter = new OutputStreamWriter(stream, "UTF-8");
 	PrintWriter writer = new PrintWriter(owriter);
-	writer.println()
+	writer.println("id=kmhan&pw=1111");
 
 }
